@@ -1,0 +1,17 @@
+Of the two reversal functions in this program, which one do you expect to be more usefull in more situations?
+
+  The flexibility of a given construct in a language is in large part determined by its composability, the property determining how easy
+it is to combine an entity with other entities, forming new and possibly more complex entities then before. Take simple pieces of primitive
+imformation, compose and combine them to form new pieces of information, and abstract these new pieces of information to control their
+complexity; This process is in many ways the fundamental art and science of programming. It has often been suggested that values and 
+operations are more composable then statements and variables: The functional approach is more composable then the procedural. While I find
+myself preffering the functional approach I do not yet know if these claims are true. The art of programmin is so rich and I have only spent
+so little time engaged in it. I do not yet believe that I can truly answer this question which is reserved for one who has become a master
+sculpter of pure abstract information. 
+
+Of the two functions, which do you expect to be more efficient?
+
+  Both functions have a similar time complexity: linear time. The difference in efficiency between the two functions is one of space complexity.
+In reverseArray, the creation of a new array requires an allocation of new space linearly proportional to the size of the argument array; 
+reverseArrayInPlace simply swaps the indices of the argument array with the help of a variable for swaping purposes, making the function run in 
+constant space. Therefore, reverseArrayInPlace is more efficient. 
